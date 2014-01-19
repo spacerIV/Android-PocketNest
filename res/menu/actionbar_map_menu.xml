@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/actionbar_map_menu_settings"
+        android:icon="@drawable/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/actionbar_map_menu_search"
+        android:icon="@drawable/action_search"
+        android:orderInCategory="0"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_search">
+    </item>
+    <item
+        android:id="@+id/actionbar_map_menu_list"
+        android:icon="@drawable/action_list"
+        android:orderInCategory="10"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_list">
+    </item>
+    <item
+        android:id="@+id/actionbar_map_menu_map"
+        android:icon="@drawable/action_map"
+        android:orderInCategory="10"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_map">
+    </item>
+    <item
+        android:id="@+id/actionbar_map_list_sort"
+        android:icon="@drawable/sort_by_size"
+        android:orderInCategory="11"
+        android:showAsAction="never"
+        android:title="Sort">
+    </item>
+
+</menu>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+
+    <!-- android:background="@android:color/transparent" -->
+
+    <LinearLayout
+        android:id="@+id/linearLayoutMapFragmentProgressDialog"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#80FFFFFF"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/pbMapViewProgress"
+            style="@android:style/Widget.ProgressBar.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#80FFFFFF"
+            android:indeterminate="true" >
+
+        </ProgressBar>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.cyrilmottier.polaris2.maps.MapView
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/mapview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </com.cyrilmottier.polaris2.maps.MapView>
+
+        <ImageButton
+            android:id="@+id/googlemaps_navigation_refresh"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:alpha="70"
+            android:background="@drawable/map_button_border"
+            android:src="@drawable/navigation_refresh" />
+
+        <ImageButton
+            android:id="@+id/googlemaps_map_layer"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/googlemaps_navigation_refresh"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:alpha="70"
+            android:background="@drawable/map_button_border"
+            android:src="@drawable/layer_map" />
+
+        <ImageButton
+            android:id="@+id/googlemaps_edit_map"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/googlemaps_map_layer"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:alpha="70"
+            android:background="@drawable/map_button_border"
+            android:src="@drawable/content_edit" />
+        
+        <ImageButton
+            android:id="@+id/googlemaps_search_info"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/googlemaps_edit_map"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:alpha="70"
+            android:background="@drawable/map_button_border"
+            android:src="@drawable/action_about" />
+    </RelativeLayout>
+
+</LinearLayout><!--
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.google.android.gms.maps.MapView
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/mapview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+        
+         <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center_horizontal"
+        android:maxLines="3"
+        android:text="For Sale: Clerkenwell, EC1,  2 beds, 1 bath,  garden, high-ceilings, gym, wood-floor"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</LinearLayout>
+-->

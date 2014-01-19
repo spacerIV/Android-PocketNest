@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="map_types">
+        <item>Normal</item>
+        <item>Satellite</item>
+        <item>Terrain</item>
+        <item>Hybrid</item>
+    </string-array>
+    <string-array name="products_array">
+        <item>United Kingdom</item>
+        <item>Germany</item>
+        <item>France</item>
+        <item>Spain</item>
+        <item>Italy</item>
+        <item>India</item>
+        <item>Brazil</item>
+        <item>Australia</item>
+    </string-array>
+    <string-array name="property_type">
+        <item>Apartment</item>
+        <item>Bungalow</item>
+        <item>Commercial</item>
+        <item>Cottage</item>
+        <item>Detached</item>
+        <item>Duplex</item>
+        <item>Excouncil</item>
+        <item>Flatshare</item>
+        <item>House</item>
+        <item>Land</item>
+        <item>Loft</item>
+        <item>Lodge</item>
+        <item>Maisonette</item>
+        <item>Mansion</item>
+        <item>Mews</item>
+        <item>New-build</item>
+        <item>Penthouse</item>
+        <item>Semi-detached</item>
+        <item>Studio</item>
+        <item>Villa</item>
+    </string-array>
+    <string-array name="keywords">
+        <item>Attic</item>
+        <item>Auction</item>
+        <item>Balcony</item>
+        <item>Basement</item>
+        <item>Cellar</item>
+        <item>Conservatory</item>
+        <item>Contemporary</item>
+        <item>Conversion</item>
+        <item>Detached-garage</item>
+        <item>Dishwasher</item>
+        <item>Double-garage</item>
+        <item>Energyrating</item>
+        <item>Fireplace</item>
+        <item>Floorplan</item>
+        <item>Freehold</item>
+        <item>Furnished</item>
+        <item>Garage</item>
+        <item>Garden</item>
+        <item>Grade-ii</item>
+        <item>Gym</item>
+        <item>High-ceilings</item>
+        <item>Hot-tub</item>
+        <item>Kitchen</item>
+        <item>Leasehold</item>
+        <item>Lift</item>
+        <item>Lower-ground-floor</item>
+        <item>Off-street-parking</item>
+        <item>Parking</item>
+        <item>Patio</item>
+        <item>Period</item>
+        <item>Porter</item>
+        <item>Purpose-built</item>
+        <item>Refurbished</item>
+        <item>Sauna</item>
+        <item>Sealed-bid</item>
+        <item>Share-freehold</item>
+        <item>Shared-garden</item>
+        <item>Swimming-pool</item>
+        <item>Terrace</item>
+        <item>Unfurnished</item>
+        <item>Victorian</item>
+        <item>Wheelchair-friendly</item>
+        <item>Wood-floor</item>
+    </string-array>
+
+</resources>
